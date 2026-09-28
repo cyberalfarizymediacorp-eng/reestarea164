@@ -14,6 +14,7 @@ import {
   Truck
 } from 'lucide-react';
 import { WHATSAPP_NUMBER, WHATSAPP_DISPLAY } from '../data/mockData';
+import heroImage from '../assets/images/hero_tps_rest_area_cipali_1790564641900.jpg';
 
 interface HeroProps {
   onExploreProducts: () => void;
@@ -192,7 +193,7 @@ export const Hero: React.FC<HeroProps> = ({
               
               {/* Product hero image */}
               <img
-                src="/src/assets/images/hero_tps_rest_area_cipali_1790564641900.jpg"
+                src={heroImage}
                 alt="Sentra Biokonversi BSF Rest Area KM 164B Tol Cipali"
                 referrerPolicy="no-referrer"
                 className="w-full h-[420px] sm:h-[500px] object-cover transition-transform duration-700 group-hover:scale-105"
